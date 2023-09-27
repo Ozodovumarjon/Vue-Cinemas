@@ -78,3 +78,21 @@ body {
   left: 50%;
   width: 0;
 }
+
+.ads {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 24px;
+  background: linear-gradient(90deg, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+}
+
+.ads__text {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  max-width: 166px;
+  width: 100%;
+}
