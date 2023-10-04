@@ -38,10 +38,33 @@
     text-align: center;
     transition: 700ms linear;
   }
+  
+  .banner {
+    height: 80vh;
+  }
+  
+  .banner__title {
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .banner__btns {
+    justify-content: center;
+  }
 }
 
 @media(max-width: 576px) {
   .container {
     max-width: auto;
+  }
+  
+  .banner__title {
+    font-size: 35px;
+  }
+  
+  .banner__btns {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
   }
 }
