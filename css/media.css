@@ -67,6 +67,29 @@
   .films__cards {
     grid-template-columns: 1fr;
   }
+  
+  .cartoons {
+    padding-top: 0;
+  }
+  
+  .cartoons::after {
+    background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 15.64%, rgba(255, 255, 255, 0.00) 100.72%);
+  }
+  
+  .cartoons .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cartoons__logo {
+    transform: translateX(0);
+  }
+  
+  .cartoons__video {
+    width: 85%;
+  }
 }
 
 @media(max-width: 576px) {

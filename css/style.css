@@ -395,3 +395,55 @@ body {
   -webkit-line-clamp: 7;
   overflow: hidden;
 }
+
+.cartoons {
+  padding-top: 42px;
+  display: flex;
+  position: relative;
+  height: 500px;
+}
+
+.cartoons::after {
+  content: '';
+  display: block;
+  background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 45.64%, rgba(255, 255, 255, 0.00) 100.72%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.cartoons__video {
+  position: absolute;
+  z-index: -2;
+  width: 60%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+}
+
+.cartoons__logo {
+  margin-bottom: 51px;
+  transform: translateX(-20px);
+  max-width: 460px;
+  width: 100%;
+}
+
+.cartoons__desc {
+  color: #000;
+  text-align: justify;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 55px;
+  max-width: 558px;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+}
