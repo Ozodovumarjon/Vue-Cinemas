@@ -10,6 +10,17 @@
     row-gap: 30px;
   }
   
+  .collections__cards {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+  
+  .collections__item {
+    max-width: 600px;
+    height: 300px;
+  }
+  
 }
 
 @media(max-width: 992px) {
@@ -90,6 +101,10 @@
   .cartoons__video {
     width: 85%;
   }
+  
+  .collections__title {
+    margin: 0 auto 30px;
+  }
 }
 
 @media(max-width: 576px) {
@@ -109,5 +124,15 @@
   
   .films {
     padding: 30px 0;
+  }
+  
+  .collections__item {
+    max-width: 350px;
+    height: 193px;
+  }
+  
+  .collections__item-title {
+    max-width: 200px;
+    width: 100%;
   }
 }
